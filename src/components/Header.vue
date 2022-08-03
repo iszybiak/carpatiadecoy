@@ -16,7 +16,7 @@
         </v-btn>
 
         <v-btn text>
-          Zdjęcia
+          Przewodnik
         </v-btn>
       </v-toolbar-items>
 

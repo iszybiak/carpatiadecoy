@@ -13,8 +13,9 @@
       <Gallery/>
     </v-content>
 
-    <v-main>
-    </v-main>
+    <v-footer>
+      <Footer/>
+    </v-footer>
   </v-app>
 </template>
 
@@ -22,6 +23,7 @@
 import Header from '../components/Header.vue'
 import Courusel from '../components/Carousel.vue'
 import Gallery from '../components/Gallery.vue'
+import Footer from '../components/Footer.vue'
 
   export default {
     name: 'Home',
@@ -29,7 +31,8 @@ import Gallery from '../components/Gallery.vue'
     components: {
     Header,
     Courusel,
-    Gallery
+    Gallery,
+    Footer
 },
   }
 </script>
