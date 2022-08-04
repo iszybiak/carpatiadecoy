@@ -5,18 +5,26 @@
       >Podkarpacie</v-toolbar-title>
 
       <v-spacer></v-spacer>
+      
 
       <v-toolbar-items class="btn-style" >
         <v-btn text >
-          Strona główna
+          <router-link class="link" to="/">
+            Strona główna
+          </router-link>  
         </v-btn>
 
         <v-btn text>
-          Historia
+          <router-link class="link" to="/history">
+            Historia
+          </router-link>
+          
         </v-btn>
 
         <v-btn text>
+          <router-link class="link" to="/">
           Przewodnik
+          </router-link>
         </v-btn>
       </v-toolbar-items>
 
@@ -41,6 +49,11 @@
 }
 .btn-style{
   font-family: 'Garamond' !important;
+}
+
+.link{
+  color: black;
+  text-decoration: none;
 }
 </style>
 
