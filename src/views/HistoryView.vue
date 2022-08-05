@@ -9,8 +9,7 @@
     </v-app-bar>
     
     <v-content >
-      <Courusel/>
-      <Gallery/>
+      <History/> 
     </v-content>
 
     <v-footer>
@@ -21,18 +20,18 @@
 
 <script>
 import Header from '../components/Header.vue'
-import Courusel from '../components/Carousel.vue'
-import Gallery from '../components/Gallery.vue'
 import Footer from '../components/Footer.vue'
+import History from '../components/History.vue'
+import Carousel from '@/components/Carousel.vue'
 
   export default {
-    name: 'Home',
+    name: 'HistoryVue',
 
     components: {
     Header,
-    Courusel,
-    Gallery,
-    Footer
+    History,
+    Footer,
+    Carousel
 },
   }
 </script>
