@@ -1,4 +1,9 @@
 <template>
+<div class="block">
+ <v-img 
+    src="../assets/images/guide-back.jpg" 
+    max-height="500"></v-img>
+    
     <v-content class="d-flex flex-column justify-space-between align-center">
         <v-card
             class="mx-auto"
@@ -28,6 +33,7 @@
         </v-container>
         </v-container>
     </v-content>
+</div>
 </template>
 
 <script>
@@ -37,6 +43,9 @@ export default {
 </script>
 
 <style scoped>
+.block{
+    position: relative;
+}
 .text-center{
     font-family: 'Garamond' !important;  
     padding-top: 5px;
