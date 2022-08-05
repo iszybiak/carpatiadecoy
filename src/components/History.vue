@@ -1,4 +1,9 @@
 <template >
+<div class="block">
+ <v-img 
+    src="../assets/images/przemysl.jpg" 
+    max-height="500"></v-img>
+
     <v-container class="pb-15">
     <h2 class="text-center pb-5"><strong>Historia Podkarpacia</strong></h2>
     <v-divider></v-divider>
@@ -47,6 +52,7 @@
 
     </v-row>
 </v-container>
+</div>
 </template>
 
 <script>
@@ -56,6 +62,9 @@ export default {
 </script>
 
 <style scoped>
+.block{
+    position: relative;
+}
 .text-center{
     font-family: 'Garamond' !important;  
 }
