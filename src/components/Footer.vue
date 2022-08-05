@@ -9,7 +9,7 @@
         </v-card-text>
          <v-card-text class=" pt-0 pb-0 font-italic">
             Chcesz skorzyać z porad przewodnika? 
-            <p><strong>+48 654 321 987</strong></p>
+            <p><v-icon small color="black s2x">mdi-phone</v-icon><strong> +48 654 321 987</strong></p>
          </v-card-text>
          <v-divider></v-divider>
       <v-card-text class="pb-0" >
@@ -23,13 +23,6 @@
 <script>
 export default {
     name:"Footer",
-
-    data(){
-        return{
-            items:[
-                
-            ]
-        }
-    }
 }
 </script>
+

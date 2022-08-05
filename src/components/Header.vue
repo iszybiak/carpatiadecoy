@@ -22,7 +22,7 @@
         </v-btn>
 
         <v-btn text>
-          <router-link class="link" to="/">
+          <router-link class="link" to="/guide">
           Przewodnik
           </router-link>
         </v-btn>
